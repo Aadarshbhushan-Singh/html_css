@@ -1,0 +1,9 @@
+body{
+	border:5px solid green;
+}
+.horizontal{
+	border-bottom:5px solid red;
+}
+table.t01{
+	padding-right:250px;
+}

@@ -1,0 +1,30 @@
+html{
+	margin:100px;
+}
+html{
+	border:20px solid darkslateblue;
+}
+h3#h03{
+	color: rgb(51,199,255);
+}
+h3#h01{
+	color:rgb(55,75,242);
+}
+h1#h04{
+	color: rgb(12,34,123);
+}
+table#t01{
+	border=border-collapse;
+	border: 5px solid cadetblue;
+	border-top:5px solid white;
+	border-right:5px solid white;
+	border-bottom:5px solid white;
+	border-right:5px solid color:rgb(151,159,234);
+}
+table#t02{
+	border:5px solid cadetblue;
+	border-top:5px solid white;
+	border-right:5px solid white;
+	border-bottom:5px solid white;
+
+}

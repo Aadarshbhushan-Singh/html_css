@@ -1,0 +1,37 @@
+body{
+	background:lightblue;
+}
+h1#title{
+	text-align:center;
+}
+div#maindiv{
+	background:white;
+	border:5px solid red;
+	margin-left:400px;
+	margin-right:400px;
+	margin-top:180px;
+}
+p#question{
+	text-align:center;
+	border-radius:15px;
+	background:green;
+	margin-right:20px;
+	margin-left:30px;
+
+}
+#abacus{
+	margin-left:60px;
+	margin-right:120px;
+}
+#calculator{
+	margin-left:350px;
+}
+#processor{
+	margin-left:60px;
+}
+#analytical_engine{
+	margin-left:350px;
+}
+div#abacus{
+	background:red;
+}
