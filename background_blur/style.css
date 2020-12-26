@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family: 'arial';
+	height: 100%;
+}
+h1{
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.bg_image{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('flower.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	background-repeat: no-repeat;
+	filter: blur(3px);
+
+}
+.bg_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: red;
+	border: 10px inset yellow;
+	padding: 2% 4%;
+	z-index: 5;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+p{
+	padding: 5%;
+}
+a{
+	border: 2px solid yellow;
+	padding: 2%;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.1);
+	color: red;
+	text-decoration: none;
+}
+a:hover{
+	background-color: rgba(0,0,0,0.2);
+	transition: background-color 0.2s;
+}

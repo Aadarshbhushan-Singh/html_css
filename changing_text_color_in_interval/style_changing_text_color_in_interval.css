@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightpink;
+    color: white;
+}
+.main_text h1{
+    font-size: 1000%;
+    padding: 1%;
+    float: left;
+}
+.main_text{
+    margin-left: 20%;
+    margin-top: 15%;
+}

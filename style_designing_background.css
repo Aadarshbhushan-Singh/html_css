@@ -1,0 +1,35 @@
+
+.second{
+
+	background-image: url("download.png");
+	height:100%;
+	background-repeat: none;
+	background-position: center;
+	cursor: pointer;
+	float: inherit;
+
+	
+
+}
+.first{
+	
+	background-size: cover;
+	border: groove;
+	border-width: 10px;
+	border-radius: 20px;
+	border-top-left-radius: 50px;
+	width:80%;
+	min-width: 300px;
+	line-height: 50px;
+	font-size:40px;
+	font-style: italic;
+	letter-spacing:3px;
+	word-spacing: 10px;
+	text-shadow: 5px 5px 5px red;
+}
+input{
+	outline:none;
+	text-align: center;
+	text-decoration:underline;
+	text-transform: uppercase;
+}

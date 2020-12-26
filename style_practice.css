@@ -1,0 +1,16 @@
+.parent {
+              background-image: url('http://lorempixel.com/600/350');
+              background-size: cover;
+              background-position: center center;
+              padding: 100px;
+     }
+
+    .slanted {
+                color: white;
+                background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'  preserveAspectRatio='none'><polygon points='0,300 0,0 150,0 300,300' width='100%' height='10%' style='fill:blue;'/></svg>");
+                background-size:contain;
+                width: 100%;
+                height: 80vh;
+                font-size: 2em;
+                padding: 4px 40px;
+   }

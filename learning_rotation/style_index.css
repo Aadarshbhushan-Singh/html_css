@@ -1,0 +1,9 @@
+#compass_image{
+    width: 10%;
+    position: absolute;
+}
+#needle_image{
+    width: 1%;
+    position: absolute;
+    left: 5.07%;
+}

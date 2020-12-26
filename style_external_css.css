@@ -1,0 +1,15 @@
+p{
+	font-size: 40px;
+	color: red;
+	font-weight: 20px;
+	font-family: monospace;
+	background-color: yellow;
+}
+.learning_class{
+	font-size: 30px;
+	color: green;
+	font-weight: 20px;
+	font-family: monospace;
+	background-color: lightblue;
+}
+

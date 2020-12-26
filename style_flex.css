@@ -1,0 +1,117 @@
+body{
+	background-color: grey;
+	color: black;
+}
+.form_whole{
+	background-color: white;
+	max-width: 1024px;
+	margin-left: 18%;
+	margin-top: 2%;
+	padding: 1%;
+	justify-content: justify;
+	margin-bottom: 3%	;
+
+	
+}
+.form_row{
+	display: flex;
+	
+}
+.form_row label{
+	margin: 1%;
+}
+.form_row input{
+	flex: 1;
+	margin: 1%;
+}
+.second_container{
+	background-color: white;
+	max-width: 1200px;
+	padding: 1%;
+	margin-left: 11%;
+	display: flex;
+
+}
+.first_para{
+	flex: 1;
+	text-align: justify;
+	padding-left: 2%;
+	order: 2;
+}
+.second_para{
+	flex: 1;
+	text-align: justify;
+	padding-left: 2%;
+	order: 1;
+}
+.third_para{
+	flex: 1;
+	text-align: justify;
+	padding-left: 2%;
+	order: 3;
+}
+.third_container{
+	max-width: 1228px;
+	margin-left: 11%;
+	margin-top: 3%;
+	display: flex;
+	/*justify-content: flex-start; distributes the space in the begining*/
+	/*justify-content: flex-end; distributes the space in the end*/
+	justify-content: space-between; /*distributes the space in between the child*/
+}
+.fourth_para{
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	/*flex: 1;*/
+	width: 32%;
+	/*margin-right: 2%;*/
+}
+/*use flex wrap for making gallery. Use the resource from w3 schools. */
+/*.fourth_para:nth-child(3){margin-right: 0%;}*/
+.fourth_para:nth-child(1) {background-color: rgb(66, 245, 228);}
+.fourth_para:nth-child(2) {background-color: rgb(222, 128, 104);}
+.fourth_para:nth-child(3) {background-color: rgb(79, 240, 98);}
+
+.fourth_container{
+	height: 200px;
+	width: 400px;
+	color: white;
+	margin-left: 38%;
+	background-color: black;
+	display: flex;
+}
+.text{
+	margin: auto;
+}
+.fifth_container{
+	display: flex;
+	background-color: white;
+	max-width: 1200px;
+	margin-left: 11%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.fifth_container_inside{
+	display: flex;
+}
+.first_part{
+	flex: 1;
+	margin: 2%;
+}
+.second_part{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.second_part_01{
+	background-color: lightblue;
+	flex: 1;
+	padding: 1%;
+	
+}
+.second_part_02{
+	background-color: lightgreen;
+	flex: 1;
+	padding: 1%;
+}

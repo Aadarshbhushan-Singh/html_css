@@ -1,0 +1,14 @@
+body{
+	margin-left:150px;
+	margin-right:150px;	
+}
+
+.whole_sheet{
+	background-color: cyan;
+	border-style:groove;
+	padding-left:80px;
+	padding-right:80px;
+}
+h1{
+	font-size:50px;
+}
