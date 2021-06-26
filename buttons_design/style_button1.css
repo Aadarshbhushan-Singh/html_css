@@ -1,0 +1,33 @@
+body{
+    color: red;
+}
+.horizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 120px;
+    margin: 20px;
+    border: 10px solid var(--base-color);
+    font-size: 4rem;
+    cursor: pointer;
+  
+}
+.horizontal p{
+    position: relative;
+    color: transparent;
+    background-image: linear-gradient(
+      90deg,
+      var(--hover-color) 0%,
+      var(--hover-color) 50%,
+      var(--base-color) 50%,
+      var(--base-color) 100%
+    );
+    background-repeat: repeat;
+    background-size: 200%;
+    background-position: 100% 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: background-position 300ms;
+}

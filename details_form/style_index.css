@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(34, 158, 230);
+}
+
+.main{
+    margin: 10% 0 0 25%;
+}
+.white{
+    float: left;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 50%;
+}
+.blue{
+    margin-right: 50%;
+    background-color: blue;
+    border: 1px solid rgba(0,0,0,0);
+    /* border-radius: 10%; */
+
+}
+#white_dropdown{
+    border: none;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding-right: 75%;
+}
+#white_01_hr{
+    margin: 5% 1% 5% 1%;
+}
+.content_white{
+    padding: 10%;
+    padding-bottom: 100%;
+}
